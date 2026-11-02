@@ -1,0 +1,3 @@
+# OPTIONAL faster CPU inference: export with scripts/export_onnx.py, then set model_path to the .onnx file.
+onnxruntime>=1.17
+# Intel CPUs/GPUs can also try OpenVINO:  pip install openvino  and  python scripts/export_onnx.py --format openvino

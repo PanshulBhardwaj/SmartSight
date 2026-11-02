@@ -1,0 +1,623 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "name": "Food and Drink",
+   "subcategories": [
+    "Fruit",
+    "Vegetable",
+    "Cooked Food",
+    "Beverage"
+   ]
+  },
+  {
+   "name": "Packaged Goods",
+   "subcategories": [
+    "Packaged Snack",
+    "Packaged Drink",
+    "Grocery Staple",
+    "Personal Care Product",
+    "Cleaning Product"
+   ]
+  },
+  {
+   "name": "Medicine and Health",
+   "subcategories": [
+    "Medicine",
+    "Health Device"
+   ]
+  },
+  {
+   "name": "Machine and Appliance",
+   "subcategories": [
+    "Kitchen Appliance",
+    "Home Appliance",
+    "Power Equipment"
+   ]
+  },
+  {
+   "name": "Electronics",
+   "subcategories": [
+    "Phone and Tablet",
+    "Computer",
+    "Audio and Video",
+    "Power and Cable"
+   ]
+  },
+  {
+   "name": "Tool",
+   "subcategories": [
+    "Hand Tool",
+    "Garden Tool"
+   ]
+  },
+  {
+   "name": "Vehicle",
+   "subcategories": [
+    "Two Wheeler",
+    "Four Wheeler",
+    "Other Vehicle"
+   ]
+  },
+  {
+   "name": "Furniture",
+   "subcategories": [
+    "Seating",
+    "Table and Storage",
+    "Bed and Bedding"
+   ]
+  },
+  {
+   "name": "Clothing and Accessories",
+   "subcategories": [
+    "Clothing",
+    "Footwear",
+    "Accessory"
+   ]
+  },
+  {
+   "name": "Plant",
+   "subcategories": [
+    "Houseplant",
+    "Flower",
+    "Tree"
+   ]
+  },
+  {
+   "name": "Animal",
+   "subcategories": [
+    "Pet",
+    "Farm Animal",
+    "Wild Animal"
+   ]
+  },
+  {
+   "name": "Person",
+   "subcategories": [
+    "Person"
+   ]
+  },
+  {
+   "name": "Document and Text",
+   "subcategories": [
+    "Paper Document"
+   ]
+  },
+  {
+   "name": "Currency",
+   "subcategories": [
+    "Banknote",
+    "Coin",
+    "Payment Card"
+   ]
+  },
+  {
+   "name": "Household Item",
+   "subcategories": [
+    "Kitchenware",
+    "Lighting and Fixtures",
+    "Cleaning Tool",
+    "Decor and Miscellaneous"
+   ]
+  },
+  {
+   "name": "Stationery",
+   "subcategories": [
+    "Writing",
+    "Office Supplies"
+   ]
+  },
+  {
+   "name": "Other",
+   "subcategories": [
+    "Other",
+    "Street Object"
+   ]
+  }
+ ],
+ "detector_map": {
+  "person": {
+   "name": "person",
+   "category": "Person",
+   "subcategory": "Person",
+   "generic": false
+  },
+  "bicycle": {
+   "name": "bicycle",
+   "category": "Vehicle",
+   "subcategory": "Two Wheeler",
+   "generic": false
+  },
+  "car": {
+   "name": "car",
+   "category": "Vehicle",
+   "subcategory": "Four Wheeler",
+   "generic": false
+  },
+  "motorcycle": {
+   "name": "motorcycle",
+   "category": "Vehicle",
+   "subcategory": "Two Wheeler",
+   "generic": false
+  },
+  "airplane": {
+   "name": "aeroplane",
+   "category": "Vehicle",
+   "subcategory": "Other Vehicle",
+   "generic": false
+  },
+  "bus": {
+   "name": "bus",
+   "category": "Vehicle",
+   "subcategory": "Four Wheeler",
+   "generic": false
+  },
+  "train": {
+   "name": "train",
+   "category": "Vehicle",
+   "subcategory": "Other Vehicle",
+   "generic": false
+  },
+  "truck": {
+   "name": "truck",
+   "category": "Vehicle",
+   "subcategory": "Four Wheeler",
+   "generic": false
+  },
+  "boat": {
+   "name": "boat",
+   "category": "Vehicle",
+   "subcategory": "Other Vehicle",
+   "generic": false
+  },
+  "traffic light": {
+   "name": "traffic light",
+   "category": "Other",
+   "subcategory": "Street Object",
+   "generic": false
+  },
+  "fire hydrant": {
+   "name": "fire hydrant",
+   "category": "Other",
+   "subcategory": "Street Object",
+   "generic": false
+  },
+  "stop sign": {
+   "name": "stop sign",
+   "category": "Other",
+   "subcategory": "Street Object",
+   "generic": false
+  },
+  "parking meter": {
+   "name": "parking meter",
+   "category": "Other",
+   "subcategory": "Street Object",
+   "generic": false
+  },
+  "bench": {
+   "name": "bench",
+   "category": "Furniture",
+   "subcategory": "Seating",
+   "generic": false
+  },
+  "bird": {
+   "name": "bird",
+   "category": "Animal",
+   "subcategory": "Wild Animal",
+   "generic": false
+  },
+  "cat": {
+   "name": "cat",
+   "category": "Animal",
+   "subcategory": "Pet",
+   "generic": false
+  },
+  "dog": {
+   "name": "dog",
+   "category": "Animal",
+   "subcategory": "Pet",
+   "generic": false
+  },
+  "horse": {
+   "name": "horse",
+   "category": "Animal",
+   "subcategory": "Farm Animal",
+   "generic": false
+  },
+  "sheep": {
+   "name": "sheep",
+   "category": "Animal",
+   "subcategory": "Farm Animal",
+   "generic": false
+  },
+  "cow": {
+   "name": "cow",
+   "category": "Animal",
+   "subcategory": "Farm Animal",
+   "generic": false
+  },
+  "elephant": {
+   "name": "elephant",
+   "category": "Animal",
+   "subcategory": "Wild Animal",
+   "generic": false
+  },
+  "bear": {
+   "name": "bear",
+   "category": "Animal",
+   "subcategory": "Wild Animal",
+   "generic": false
+  },
+  "zebra": {
+   "name": "zebra",
+   "category": "Animal",
+   "subcategory": "Wild Animal",
+   "generic": false
+  },
+  "giraffe": {
+   "name": "giraffe",
+   "category": "Animal",
+   "subcategory": "Wild Animal",
+   "generic": false
+  },
+  "backpack": {
+   "name": "backpack",
+   "category": "Clothing and Accessories",
+   "subcategory": "Accessory",
+   "generic": false
+  },
+  "umbrella": {
+   "name": "umbrella",
+   "category": "Clothing and Accessories",
+   "subcategory": "Accessory",
+   "generic": false
+  },
+  "handbag": {
+   "name": "handbag",
+   "category": "Clothing and Accessories",
+   "subcategory": "Accessory",
+   "generic": true
+  },
+  "tie": {
+   "name": "necktie",
+   "category": "Clothing and Accessories",
+   "subcategory": "Accessory",
+   "generic": false
+  },
+  "suitcase": {
+   "name": "suitcase",
+   "category": "Clothing and Accessories",
+   "subcategory": "Accessory",
+   "generic": false
+  },
+  "frisbee": {
+   "name": "frisbee",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": false
+  },
+  "skis": {
+   "name": "skis",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": false
+  },
+  "snowboard": {
+   "name": "snowboard",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": false
+  },
+  "sports ball": {
+   "name": "ball",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": true
+  },
+  "kite": {
+   "name": "kite",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": false
+  },
+  "baseball bat": {
+   "name": "baseball bat",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": false
+  },
+  "baseball glove": {
+   "name": "baseball glove",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": false
+  },
+  "skateboard": {
+   "name": "skateboard",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": false
+  },
+  "surfboard": {
+   "name": "surfboard",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": false
+  },
+  "tennis racket": {
+   "name": "tennis racket",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": false
+  },
+  "bottle": {
+   "name": "bottle",
+   "category": "Household Item",
+   "subcategory": "Kitchenware",
+   "generic": true
+  },
+  "wine glass": {
+   "name": "wine glass",
+   "category": "Household Item",
+   "subcategory": "Kitchenware",
+   "generic": false
+  },
+  "cup": {
+   "name": "cup",
+   "category": "Household Item",
+   "subcategory": "Kitchenware",
+   "generic": true
+  },
+  "fork": {
+   "name": "fork",
+   "category": "Household Item",
+   "subcategory": "Kitchenware",
+   "generic": false
+  },
+  "knife": {
+   "name": "knife",
+   "category": "Household Item",
+   "subcategory": "Kitchenware",
+   "generic": false
+  },
+  "spoon": {
+   "name": "spoon",
+   "category": "Household Item",
+   "subcategory": "Kitchenware",
+   "generic": false
+  },
+  "bowl": {
+   "name": "bowl",
+   "category": "Household Item",
+   "subcategory": "Kitchenware",
+   "generic": true
+  },
+  "banana": {
+   "name": "banana",
+   "category": "Food and Drink",
+   "subcategory": "Fruit",
+   "generic": false
+  },
+  "apple": {
+   "name": "apple",
+   "category": "Food and Drink",
+   "subcategory": "Fruit",
+   "generic": false
+  },
+  "sandwich": {
+   "name": "sandwich",
+   "category": "Food and Drink",
+   "subcategory": "Cooked Food",
+   "generic": false
+  },
+  "orange": {
+   "name": "orange",
+   "category": "Food and Drink",
+   "subcategory": "Fruit",
+   "generic": false
+  },
+  "broccoli": {
+   "name": "broccoli",
+   "category": "Food and Drink",
+   "subcategory": "Vegetable",
+   "generic": false
+  },
+  "carrot": {
+   "name": "carrot",
+   "category": "Food and Drink",
+   "subcategory": "Vegetable",
+   "generic": false
+  },
+  "hot dog": {
+   "name": "hot dog",
+   "category": "Food and Drink",
+   "subcategory": "Cooked Food",
+   "generic": false
+  },
+  "pizza": {
+   "name": "pizza",
+   "category": "Food and Drink",
+   "subcategory": "Cooked Food",
+   "generic": false
+  },
+  "donut": {
+   "name": "donut",
+   "category": "Food and Drink",
+   "subcategory": "Cooked Food",
+   "generic": false
+  },
+  "cake": {
+   "name": "cake",
+   "category": "Food and Drink",
+   "subcategory": "Cooked Food",
+   "generic": false
+  },
+  "chair": {
+   "name": "chair",
+   "category": "Furniture",
+   "subcategory": "Seating",
+   "generic": false
+  },
+  "couch": {
+   "name": "sofa",
+   "category": "Furniture",
+   "subcategory": "Seating",
+   "generic": false
+  },
+  "potted plant": {
+   "name": "potted plant",
+   "category": "Plant",
+   "subcategory": "Houseplant",
+   "generic": false
+  },
+  "bed": {
+   "name": "bed",
+   "category": "Furniture",
+   "subcategory": "Bed and Bedding",
+   "generic": false
+  },
+  "dining table": {
+   "name": "dining table",
+   "category": "Furniture",
+   "subcategory": "Table and Storage",
+   "generic": false
+  },
+  "toilet": {
+   "name": "toilet",
+   "category": "Household Item",
+   "subcategory": "Lighting and Fixtures",
+   "generic": false
+  },
+  "tv": {
+   "name": "television",
+   "category": "Electronics",
+   "subcategory": "Audio and Video",
+   "generic": false
+  },
+  "laptop": {
+   "name": "laptop",
+   "category": "Electronics",
+   "subcategory": "Computer",
+   "generic": false
+  },
+  "mouse": {
+   "name": "computer mouse",
+   "category": "Electronics",
+   "subcategory": "Computer",
+   "generic": false
+  },
+  "remote": {
+   "name": "remote control",
+   "category": "Electronics",
+   "subcategory": "Audio and Video",
+   "generic": true
+  },
+  "keyboard": {
+   "name": "keyboard",
+   "category": "Electronics",
+   "subcategory": "Computer",
+   "generic": false
+  },
+  "cell phone": {
+   "name": "mobile phone",
+   "category": "Electronics",
+   "subcategory": "Phone and Tablet",
+   "generic": false
+  },
+  "microwave": {
+   "name": "microwave oven",
+   "category": "Machine and Appliance",
+   "subcategory": "Kitchen Appliance",
+   "generic": false
+  },
+  "oven": {
+   "name": "oven",
+   "category": "Machine and Appliance",
+   "subcategory": "Kitchen Appliance",
+   "generic": false
+  },
+  "toaster": {
+   "name": "toaster",
+   "category": "Machine and Appliance",
+   "subcategory": "Kitchen Appliance",
+   "generic": false
+  },
+  "sink": {
+   "name": "sink",
+   "category": "Household Item",
+   "subcategory": "Lighting and Fixtures",
+   "generic": false
+  },
+  "refrigerator": {
+   "name": "refrigerator",
+   "category": "Machine and Appliance",
+   "subcategory": "Kitchen Appliance",
+   "generic": false
+  },
+  "book": {
+   "name": "book",
+   "category": "Document and Text",
+   "subcategory": "Paper Document",
+   "generic": true
+  },
+  "clock": {
+   "name": "clock",
+   "category": "Household Item",
+   "subcategory": "Lighting and Fixtures",
+   "generic": false
+  },
+  "vase": {
+   "name": "vase",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": true
+  },
+  "scissors": {
+   "name": "scissors",
+   "category": "Tool",
+   "subcategory": "Hand Tool",
+   "generic": false
+  },
+  "teddy bear": {
+   "name": "teddy bear",
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "generic": false
+  },
+  "hair drier": {
+   "name": "hair dryer",
+   "category": "Machine and Appliance",
+   "subcategory": "Home Appliance",
+   "generic": false
+  },
+  "toothbrush": {
+   "name": "toothbrush",
+   "category": "Packaged Goods",
+   "subcategory": "Personal Care Product",
+   "generic": false
+  }
+ },
+ "keyword_categories": {
+  "note": "label text keywords (front-of-pack only) -> vocabulary item; ingredient and nutrition text never decides the category"
+ }
+}

@@ -1,0 +1,3 @@
+# OPTIONAL Tier 2 open-vocabulary recognition (OpenCLIP). Pure-Python wheels, no C compiler needed.
+# PyTorch is already installed by ultralytics/easyocr (requirements.txt).
+open_clip_torch>=2.24

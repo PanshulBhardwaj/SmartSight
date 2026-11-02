@@ -1,0 +1,3 @@
+# OPTIONAL offline voice commands (Vosk). Prebuilt wheels: no C compiler needed.
+vosk>=0.3.45
+sounddevice>=0.4.6

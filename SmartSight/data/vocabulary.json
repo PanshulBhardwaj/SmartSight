@@ -1,0 +1,1959 @@
+{
+ "version": 1,
+ "note": "Open-vocabulary labels for Tier 2. Add groups/items freely; embeddings are rebuilt automatically when this file changes.",
+ "groups": [
+  {
+   "category": "Food and Drink",
+   "subcategory": "Fruit",
+   "used_for": "eaten fresh as a snack or in meals",
+   "items": [
+    {
+     "name": "apple"
+    },
+    {
+     "name": "banana"
+    },
+    {
+     "name": "orange"
+    },
+    {
+     "name": "mango"
+    },
+    {
+     "name": "bunch of grapes",
+     "aliases": [
+      "grapes"
+     ]
+    },
+    {
+     "name": "lemon"
+    },
+    {
+     "name": "pineapple"
+    },
+    {
+     "name": "watermelon"
+    },
+    {
+     "name": "strawberry"
+    },
+    {
+     "name": "pomegranate"
+    },
+    {
+     "name": "papaya"
+    },
+    {
+     "name": "guava"
+    },
+    {
+     "name": "pear"
+    },
+    {
+     "name": "coconut"
+    },
+    {
+     "name": "chikoo",
+     "aliases": [
+      "sapota"
+     ]
+    },
+    {
+     "name": "kiwi"
+    },
+    {
+     "name": "peach"
+    },
+    {
+     "name": "plum"
+    },
+    {
+     "name": "cherries"
+    },
+    {
+     "name": "dates",
+     "aliases": [
+      "dried dates"
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Food and Drink",
+   "subcategory": "Vegetable",
+   "used_for": "cooked or eaten raw in meals",
+   "items": [
+    {
+     "name": "tomato"
+    },
+    {
+     "name": "potato"
+    },
+    {
+     "name": "onion"
+    },
+    {
+     "name": "carrot"
+    },
+    {
+     "name": "cucumber"
+    },
+    {
+     "name": "cauliflower"
+    },
+    {
+     "name": "cabbage"
+    },
+    {
+     "name": "capsicum",
+     "aliases": [
+      "bell pepper"
+     ]
+    },
+    {
+     "name": "brinjal",
+     "aliases": [
+      "eggplant"
+     ]
+    },
+    {
+     "name": "garlic"
+    },
+    {
+     "name": "ginger"
+    },
+    {
+     "name": "green chilli"
+    },
+    {
+     "name": "spinach",
+     "aliases": [
+      "palak"
+     ]
+    },
+    {
+     "name": "okra",
+     "aliases": [
+      "lady finger"
+     ]
+    },
+    {
+     "name": "peas"
+    },
+    {
+     "name": "corn cob",
+     "aliases": [
+      "sweet corn"
+     ]
+    },
+    {
+     "name": "radish"
+    },
+    {
+     "name": "beetroot"
+    },
+    {
+     "name": "pumpkin"
+    },
+    {
+     "name": "bottle gourd",
+     "aliases": [
+      "lauki"
+     ]
+    },
+    {
+     "name": "broccoli"
+    },
+    {
+     "name": "mushroom"
+    }
+   ]
+  },
+  {
+   "category": "Food and Drink",
+   "subcategory": "Cooked Food",
+   "used_for": "eaten as a meal or snack",
+   "items": [
+    {
+     "name": "slice of bread",
+     "aliases": [
+      "loaf of bread"
+     ]
+    },
+    {
+     "name": "sandwich"
+    },
+    {
+     "name": "pizza"
+    },
+    {
+     "name": "burger"
+    },
+    {
+     "name": "samosa"
+    },
+    {
+     "name": "idli"
+    },
+    {
+     "name": "dosa"
+    },
+    {
+     "name": "chapati",
+     "aliases": [
+      "roti"
+     ]
+    },
+    {
+     "name": "plate of rice"
+    },
+    {
+     "name": "plate of food",
+     "aliases": [
+      "thali"
+     ]
+    },
+    {
+     "name": "cake"
+    },
+    {
+     "name": "donut"
+    },
+    {
+     "name": "boiled egg",
+     "aliases": [
+      "egg"
+     ]
+    },
+    {
+     "name": "noodles in a bowl"
+    },
+    {
+     "name": "cup of soup"
+    },
+    {
+     "name": "salad"
+    },
+    {
+     "name": "ice cream"
+    },
+    {
+     "name": "sweets",
+     "aliases": [
+      "mithai"
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Food and Drink",
+   "subcategory": "Beverage",
+   "used_for": "drunk to quench thirst or as a hot drink",
+   "items": [
+    {
+     "name": "glass of water"
+    },
+    {
+     "name": "cup of tea",
+     "aliases": [
+      "chai"
+     ]
+    },
+    {
+     "name": "cup of coffee"
+    },
+    {
+     "name": "glass of juice"
+    },
+    {
+     "name": "glass of milk"
+    },
+    {
+     "name": "glass of lassi"
+    }
+   ]
+  },
+  {
+   "category": "Packaged Goods",
+   "subcategory": "Packaged Snack",
+   "used_for": "a ready-to-eat packaged snack",
+   "items": [
+    {
+     "name": "packet of chips",
+     "aliases": [
+      "chips packet"
+     ]
+    },
+    {
+     "name": "biscuit packet",
+     "aliases": [
+      "packet of biscuits"
+     ]
+    },
+    {
+     "name": "chocolate bar"
+    },
+    {
+     "name": "instant noodles packet",
+     "aliases": [
+      "packet of noodles"
+     ]
+    },
+    {
+     "name": "namkeen packet"
+    },
+    {
+     "name": "candy packet"
+    },
+    {
+     "name": "cereal box"
+    },
+    {
+     "name": "protein bar"
+    },
+    {
+     "name": "popcorn packet"
+    }
+   ]
+  },
+  {
+   "category": "Packaged Goods",
+   "subcategory": "Packaged Drink",
+   "used_for": "a ready-to-drink beverage",
+   "items": [
+    {
+     "name": "plastic water bottle",
+     "aliases": [
+      "packaged drinking water bottle"
+     ]
+    },
+    {
+     "name": "soft drink can",
+     "aliases": [
+      "cola can"
+     ]
+    },
+    {
+     "name": "soft drink bottle"
+    },
+    {
+     "name": "juice carton"
+    },
+    {
+     "name": "milk packet",
+     "aliases": [
+      "milk carton"
+     ]
+    },
+    {
+     "name": "tetra pack"
+    },
+    {
+     "name": "energy drink can"
+    },
+    {
+     "name": "tea box",
+     "aliases": [
+      "tea packet"
+     ]
+    },
+    {
+     "name": "coffee jar"
+    },
+    {
+     "name": "instant coffee sachet"
+    }
+   ]
+  },
+  {
+   "category": "Packaged Goods",
+   "subcategory": "Grocery Staple",
+   "used_for": "a cooking ingredient or pantry staple",
+   "items": [
+    {
+     "name": "packet of rice",
+     "aliases": [
+      "rice bag"
+     ]
+    },
+    {
+     "name": "packet of flour",
+     "aliases": [
+      "atta packet"
+     ]
+    },
+    {
+     "name": "packet of sugar"
+    },
+    {
+     "name": "packet of salt"
+    },
+    {
+     "name": "packet of dal",
+     "aliases": [
+      "lentils"
+     ]
+    },
+    {
+     "name": "packet of spices",
+     "aliases": [
+      "masala packet"
+     ]
+    },
+    {
+     "name": "jar of pickle"
+    },
+    {
+     "name": "jar of jam"
+    },
+    {
+     "name": "bottle of cooking oil",
+     "aliases": [
+      "oil bottle"
+     ]
+    },
+    {
+     "name": "jar of ghee",
+     "aliases": [
+      "ghee tin"
+     ]
+    },
+    {
+     "name": "jar of honey"
+    },
+    {
+     "name": "bottle of ketchup",
+     "aliases": [
+      "tomato sauce bottle"
+     ]
+    },
+    {
+     "name": "jar of peanut butter"
+    },
+    {
+     "name": "tin can",
+     "aliases": [
+      "canned food"
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Packaged Goods",
+   "subcategory": "Personal Care Product",
+   "used_for": "used for personal hygiene and grooming",
+   "items": [
+    {
+     "name": "shampoo bottle"
+    },
+    {
+     "name": "conditioner bottle"
+    },
+    {
+     "name": "soap bar"
+    },
+    {
+     "name": "body wash bottle"
+    },
+    {
+     "name": "toothpaste tube"
+    },
+    {
+     "name": "toothbrush"
+    },
+    {
+     "name": "deodorant spray",
+     "aliases": [
+      "deodorant"
+     ]
+    },
+    {
+     "name": "perfume bottle"
+    },
+    {
+     "name": "face cream jar"
+    },
+    {
+     "name": "lotion bottle"
+    },
+    {
+     "name": "razor"
+    },
+    {
+     "name": "hair oil bottle"
+    },
+    {
+     "name": "hand sanitiser bottle",
+     "aliases": [
+      "sanitizer"
+     ]
+    },
+    {
+     "name": "sunscreen tube"
+    },
+    {
+     "name": "lip balm"
+    },
+    {
+     "name": "comb"
+    },
+    {
+     "name": "face wash tube"
+    },
+    {
+     "name": "talcum powder tin"
+    }
+   ]
+  },
+  {
+   "category": "Packaged Goods",
+   "subcategory": "Cleaning Product",
+   "used_for": "used to clean the home or clothes",
+   "items": [
+    {
+     "name": "detergent packet",
+     "aliases": [
+      "washing powder packet"
+     ]
+    },
+    {
+     "name": "dishwash liquid bottle"
+    },
+    {
+     "name": "floor cleaner bottle"
+    },
+    {
+     "name": "toilet cleaner bottle"
+    },
+    {
+     "name": "bleach bottle"
+    },
+    {
+     "name": "sponge"
+    },
+    {
+     "name": "scrub pad"
+    }
+   ]
+  },
+  {
+   "category": "Medicine and Health",
+   "subcategory": "Medicine",
+   "used_for": "taken or applied to treat or prevent illness; follow the label and a pharmacist's or doctor's advice",
+   "items": [
+    {
+     "name": "medicine strip",
+     "aliases": [
+      "tablet strip"
+     ]
+    },
+    {
+     "name": "medicine bottle"
+    },
+    {
+     "name": "cough syrup bottle"
+    },
+    {
+     "name": "capsule box",
+     "aliases": [
+      "medicine box"
+     ]
+    },
+    {
+     "name": "ointment tube"
+    },
+    {
+     "name": "eye drops bottle"
+    },
+    {
+     "name": "inhaler"
+    },
+    {
+     "name": "pill bottle"
+    },
+    {
+     "name": "syringe"
+    },
+    {
+     "name": "vitamin tablets bottle"
+    }
+   ]
+  },
+  {
+   "category": "Medicine and Health",
+   "subcategory": "Health Device",
+   "used_for": "used to check or support health",
+   "items": [
+    {
+     "name": "thermometer"
+    },
+    {
+     "name": "blood pressure monitor"
+    },
+    {
+     "name": "glucometer"
+    },
+    {
+     "name": "face mask"
+    },
+    {
+     "name": "bandage"
+    },
+    {
+     "name": "first aid kit"
+    },
+    {
+     "name": "walking stick",
+     "aliases": [
+      "cane"
+     ]
+    },
+    {
+     "name": "pulse oximeter"
+    },
+    {
+     "name": "hearing aid"
+    },
+    {
+     "name": "crutches"
+    }
+   ]
+  },
+  {
+   "category": "Machine and Appliance",
+   "subcategory": "Kitchen Appliance",
+   "used_for": "used to prepare or cook food",
+   "items": [
+    {
+     "name": "microwave oven",
+     "aliases": [
+      "microwave"
+     ]
+    },
+    {
+     "name": "refrigerator",
+     "aliases": [
+      "fridge"
+     ]
+    },
+    {
+     "name": "mixer grinder",
+     "aliases": [
+      "blender"
+     ]
+    },
+    {
+     "name": "toaster"
+    },
+    {
+     "name": "electric kettle"
+    },
+    {
+     "name": "induction cooktop"
+    },
+    {
+     "name": "gas stove"
+    },
+    {
+     "name": "pressure cooker"
+    },
+    {
+     "name": "rice cooker"
+    },
+    {
+     "name": "air fryer"
+    },
+    {
+     "name": "oven"
+    },
+    {
+     "name": "dishwasher"
+    },
+    {
+     "name": "water purifier"
+    },
+    {
+     "name": "coffee maker"
+    },
+    {
+     "name": "juicer"
+    }
+   ]
+  },
+  {
+   "category": "Machine and Appliance",
+   "subcategory": "Home Appliance",
+   "used_for": "used around the home",
+   "items": [
+    {
+     "name": "washing machine"
+    },
+    {
+     "name": "ceiling fan"
+    },
+    {
+     "name": "table fan",
+     "aliases": [
+      "pedestal fan"
+     ]
+    },
+    {
+     "name": "air conditioner",
+     "aliases": [
+      "AC"
+     ]
+    },
+    {
+     "name": "air cooler"
+    },
+    {
+     "name": "clothes iron",
+     "aliases": [
+      "iron"
+     ]
+    },
+    {
+     "name": "vacuum cleaner"
+    },
+    {
+     "name": "water heater",
+     "aliases": [
+      "geyser"
+     ]
+    },
+    {
+     "name": "room heater"
+    },
+    {
+     "name": "sewing machine"
+    },
+    {
+     "name": "hair dryer"
+    },
+    {
+     "name": "inverter"
+    }
+   ]
+  },
+  {
+   "category": "Machine and Appliance",
+   "subcategory": "Power Equipment",
+   "used_for": "a powered machine that can be dangerous; take care when operating",
+   "items": [
+    {
+     "name": "electric drill",
+     "aliases": [
+      "drill machine"
+     ]
+    },
+    {
+     "name": "angle grinder"
+    },
+    {
+     "name": "lawn mower"
+    },
+    {
+     "name": "generator"
+    },
+    {
+     "name": "water pump"
+    },
+    {
+     "name": "electric saw"
+    },
+    {
+     "name": "welding machine"
+    },
+    {
+     "name": "air compressor"
+    }
+   ]
+  },
+  {
+   "category": "Electronics",
+   "subcategory": "Phone and Tablet",
+   "used_for": "used to call, message and use apps",
+   "items": [
+    {
+     "name": "mobile phone",
+     "aliases": [
+      "smartphone",
+      "cell phone"
+     ]
+    },
+    {
+     "name": "tablet"
+    },
+    {
+     "name": "landline phone"
+    },
+    {
+     "name": "smartwatch"
+    }
+   ]
+  },
+  {
+   "category": "Electronics",
+   "subcategory": "Computer",
+   "used_for": "used for work and browsing",
+   "items": [
+    {
+     "name": "laptop"
+    },
+    {
+     "name": "computer monitor"
+    },
+    {
+     "name": "keyboard"
+    },
+    {
+     "name": "computer mouse"
+    },
+    {
+     "name": "printer"
+    },
+    {
+     "name": "scanner"
+    },
+    {
+     "name": "external hard drive"
+    },
+    {
+     "name": "pen drive",
+     "aliases": [
+      "USB flash drive"
+     ]
+    },
+    {
+     "name": "webcam"
+    }
+   ]
+  },
+  {
+   "category": "Electronics",
+   "subcategory": "Audio and Video",
+   "used_for": "used to watch, listen or record",
+   "items": [
+    {
+     "name": "television",
+     "aliases": [
+      "TV"
+     ]
+    },
+    {
+     "name": "remote control"
+    },
+    {
+     "name": "headphones"
+    },
+    {
+     "name": "earbuds"
+    },
+    {
+     "name": "speaker"
+    },
+    {
+     "name": "bluetooth speaker"
+    },
+    {
+     "name": "radio"
+    },
+    {
+     "name": "camera"
+    },
+    {
+     "name": "microphone"
+    },
+    {
+     "name": "projector"
+    },
+    {
+     "name": "set-top box"
+    },
+    {
+     "name": "wifi router"
+    }
+   ]
+  },
+  {
+   "category": "Electronics",
+   "subcategory": "Power and Cable",
+   "used_for": "used to charge or power devices",
+   "items": [
+    {
+     "name": "phone charger",
+     "aliases": [
+      "charger"
+     ]
+    },
+    {
+     "name": "power bank"
+    },
+    {
+     "name": "charging cable",
+     "aliases": [
+      "USB cable"
+     ]
+    },
+    {
+     "name": "extension board",
+     "aliases": [
+      "power strip"
+     ]
+    },
+    {
+     "name": "plug adapter"
+    },
+    {
+     "name": "battery"
+    },
+    {
+     "name": "AA batteries"
+    }
+   ]
+  },
+  {
+   "category": "Tool",
+   "subcategory": "Hand Tool",
+   "used_for": "used for fixing, building or repairing by hand",
+   "items": [
+    {
+     "name": "hammer"
+    },
+    {
+     "name": "screwdriver"
+    },
+    {
+     "name": "pliers"
+    },
+    {
+     "name": "wrench",
+     "aliases": [
+      "spanner"
+     ]
+    },
+    {
+     "name": "measuring tape"
+    },
+    {
+     "name": "hand saw"
+    },
+    {
+     "name": "spirit level"
+    },
+    {
+     "name": "box cutter",
+     "aliases": [
+      "cutter knife"
+     ]
+    },
+    {
+     "name": "tool box"
+    },
+    {
+     "name": "ladder"
+    },
+    {
+     "name": "paintbrush"
+    },
+    {
+     "name": "allen key set"
+    },
+    {
+     "name": "drill bits"
+    }
+   ]
+  },
+  {
+   "category": "Tool",
+   "subcategory": "Garden Tool",
+   "used_for": "used for gardening",
+   "items": [
+    {
+     "name": "garden shovel",
+     "aliases": [
+      "spade"
+     ]
+    },
+    {
+     "name": "watering can"
+    },
+    {
+     "name": "garden hose"
+    },
+    {
+     "name": "pruning shears"
+    },
+    {
+     "name": "rake"
+    }
+   ]
+  },
+  {
+   "category": "Vehicle",
+   "subcategory": "Two Wheeler",
+   "used_for": "a vehicle with two wheels",
+   "items": [
+    {
+     "name": "bicycle"
+    },
+    {
+     "name": "motorcycle"
+    },
+    {
+     "name": "scooter"
+    }
+   ]
+  },
+  {
+   "category": "Vehicle",
+   "subcategory": "Four Wheeler",
+   "used_for": "a road vehicle",
+   "items": [
+    {
+     "name": "car"
+    },
+    {
+     "name": "auto rickshaw"
+    },
+    {
+     "name": "bus"
+    },
+    {
+     "name": "truck"
+    },
+    {
+     "name": "van"
+    }
+   ]
+  },
+  {
+   "category": "Vehicle",
+   "subcategory": "Other Vehicle",
+   "used_for": "a vehicle",
+   "items": [
+    {
+     "name": "train"
+    },
+    {
+     "name": "boat"
+    },
+    {
+     "name": "aeroplane"
+    },
+    {
+     "name": "wheelchair"
+    }
+   ]
+  },
+  {
+   "category": "Furniture",
+   "subcategory": "Seating",
+   "used_for": "to sit on",
+   "items": [
+    {
+     "name": "chair"
+    },
+    {
+     "name": "sofa",
+     "aliases": [
+      "couch"
+     ]
+    },
+    {
+     "name": "stool"
+    },
+    {
+     "name": "bench"
+    },
+    {
+     "name": "office chair"
+    }
+   ]
+  },
+  {
+   "category": "Furniture",
+   "subcategory": "Table and Storage",
+   "used_for": "to put things on or store things in",
+   "items": [
+    {
+     "name": "table"
+    },
+    {
+     "name": "dining table"
+    },
+    {
+     "name": "study desk",
+     "aliases": [
+      "desk"
+     ]
+    },
+    {
+     "name": "bookshelf"
+    },
+    {
+     "name": "wardrobe"
+    },
+    {
+     "name": "cupboard"
+    },
+    {
+     "name": "drawer"
+    },
+    {
+     "name": "shelf"
+    },
+    {
+     "name": "tv stand"
+    }
+   ]
+  },
+  {
+   "category": "Furniture",
+   "subcategory": "Bed and Bedding",
+   "used_for": "for sleeping",
+   "items": [
+    {
+     "name": "bed"
+    },
+    {
+     "name": "pillow"
+    },
+    {
+     "name": "blanket"
+    },
+    {
+     "name": "mattress"
+    },
+    {
+     "name": "bedsheet"
+    }
+   ]
+  },
+  {
+   "category": "Clothing and Accessories",
+   "subcategory": "Clothing",
+   "used_for": "worn on the body",
+   "items": [
+    {
+     "name": "shirt"
+    },
+    {
+     "name": "t-shirt"
+    },
+    {
+     "name": "trousers",
+     "aliases": [
+      "pants"
+     ]
+    },
+    {
+     "name": "jeans"
+    },
+    {
+     "name": "dress"
+    },
+    {
+     "name": "saree"
+    },
+    {
+     "name": "kurta"
+    },
+    {
+     "name": "jacket"
+    },
+    {
+     "name": "sweater"
+    },
+    {
+     "name": "socks"
+    },
+    {
+     "name": "scarf"
+    },
+    {
+     "name": "shorts"
+    }
+   ]
+  },
+  {
+   "category": "Clothing and Accessories",
+   "subcategory": "Footwear",
+   "used_for": "worn on the feet",
+   "items": [
+    {
+     "name": "shoes"
+    },
+    {
+     "name": "sandals"
+    },
+    {
+     "name": "slippers"
+    },
+    {
+     "name": "sports shoes"
+    },
+    {
+     "name": "boots"
+    },
+    {
+     "name": "formal shoes"
+    }
+   ]
+  },
+  {
+   "category": "Clothing and Accessories",
+   "subcategory": "Accessory",
+   "used_for": "worn or carried with clothing",
+   "items": [
+    {
+     "name": "backpack"
+    },
+    {
+     "name": "handbag"
+    },
+    {
+     "name": "wallet"
+    },
+    {
+     "name": "belt"
+    },
+    {
+     "name": "hat"
+    },
+    {
+     "name": "cap"
+    },
+    {
+     "name": "sunglasses"
+    },
+    {
+     "name": "spectacles",
+     "aliases": [
+      "eyeglasses"
+     ]
+    },
+    {
+     "name": "wristwatch"
+    },
+    {
+     "name": "umbrella"
+    },
+    {
+     "name": "necktie",
+     "aliases": [
+      "tie"
+     ]
+    },
+    {
+     "name": "gloves"
+    },
+    {
+     "name": "helmet"
+    },
+    {
+     "name": "suitcase"
+    }
+   ]
+  },
+  {
+   "category": "Plant",
+   "subcategory": "Houseplant",
+   "used_for": "a plant grown at home",
+   "items": [
+    {
+     "name": "potted plant"
+    },
+    {
+     "name": "money plant"
+    },
+    {
+     "name": "cactus"
+    },
+    {
+     "name": "succulent"
+    },
+    {
+     "name": "bonsai"
+    },
+    {
+     "name": "tulsi plant"
+    }
+   ]
+  },
+  {
+   "category": "Plant",
+   "subcategory": "Flower",
+   "used_for": "a flower",
+   "items": [
+    {
+     "name": "rose"
+    },
+    {
+     "name": "sunflower"
+    },
+    {
+     "name": "marigold"
+    },
+    {
+     "name": "jasmine"
+    },
+    {
+     "name": "lotus"
+    },
+    {
+     "name": "bouquet of flowers"
+    }
+   ]
+  },
+  {
+   "category": "Plant",
+   "subcategory": "Tree",
+   "used_for": "a tree or leaf",
+   "items": [
+    {
+     "name": "tree"
+    },
+    {
+     "name": "leaf"
+    }
+   ]
+  },
+  {
+   "category": "Animal",
+   "subcategory": "Pet",
+   "used_for": "an animal kept as a pet",
+   "items": [
+    {
+     "name": "dog"
+    },
+    {
+     "name": "cat"
+    },
+    {
+     "name": "parrot"
+    },
+    {
+     "name": "rabbit"
+    },
+    {
+     "name": "aquarium fish",
+     "aliases": [
+      "fish"
+     ]
+    },
+    {
+     "name": "hamster"
+    },
+    {
+     "name": "tortoise"
+    }
+   ]
+  },
+  {
+   "category": "Animal",
+   "subcategory": "Farm Animal",
+   "used_for": "an animal kept on a farm",
+   "items": [
+    {
+     "name": "cow"
+    },
+    {
+     "name": "buffalo"
+    },
+    {
+     "name": "goat"
+    },
+    {
+     "name": "sheep"
+    },
+    {
+     "name": "horse"
+    },
+    {
+     "name": "chicken",
+     "aliases": [
+      "hen"
+     ]
+    },
+    {
+     "name": "pig"
+    }
+   ]
+  },
+  {
+   "category": "Animal",
+   "subcategory": "Wild Animal",
+   "used_for": "an animal; keep a safe distance from unknown animals",
+   "items": [
+    {
+     "name": "elephant"
+    },
+    {
+     "name": "monkey"
+    },
+    {
+     "name": "bird"
+    },
+    {
+     "name": "squirrel"
+    },
+    {
+     "name": "snake"
+    },
+    {
+     "name": "butterfly"
+    },
+    {
+     "name": "insect"
+    },
+    {
+     "name": "cockroach"
+    },
+    {
+     "name": "mosquito"
+    }
+   ]
+  },
+  {
+   "category": "Person",
+   "subcategory": "Person",
+   "used_for": "a person; SmartSight never identifies people",
+   "items": [
+    {
+     "name": "person"
+    },
+    {
+     "name": "child"
+    },
+    {
+     "name": "group of people"
+    },
+    {
+     "name": "hand"
+    }
+   ]
+  },
+  {
+   "category": "Document and Text",
+   "subcategory": "Paper Document",
+   "used_for": "printed or written paper",
+   "items": [
+    {
+     "name": "book"
+    },
+    {
+     "name": "notebook"
+    },
+    {
+     "name": "newspaper"
+    },
+    {
+     "name": "magazine"
+    },
+    {
+     "name": "letter"
+    },
+    {
+     "name": "envelope"
+    },
+    {
+     "name": "bill",
+     "aliases": [
+      "receipt"
+     ]
+    },
+    {
+     "name": "bank passbook"
+    },
+    {
+     "name": "ID card"
+    },
+    {
+     "name": "visiting card",
+     "aliases": [
+      "business card"
+     ]
+    },
+    {
+     "name": "prescription"
+    },
+    {
+     "name": "form"
+    },
+    {
+     "name": "calendar"
+    },
+    {
+     "name": "map"
+    },
+    {
+     "name": "photograph"
+    },
+    {
+     "name": "sticky note"
+    },
+    {
+     "name": "label"
+    },
+    {
+     "name": "sign board"
+    },
+    {
+     "name": "poster"
+    }
+   ]
+  },
+  {
+   "category": "Currency",
+   "subcategory": "Banknote",
+   "used_for": "money used to pay; the value is printed on the note",
+   "items": [
+    {
+     "name": "2000 rupee note"
+    },
+    {
+     "name": "500 rupee note"
+    },
+    {
+     "name": "200 rupee note"
+    },
+    {
+     "name": "100 rupee note"
+    },
+    {
+     "name": "50 rupee note"
+    },
+    {
+     "name": "20 rupee note"
+    },
+    {
+     "name": "10 rupee note"
+    },
+    {
+     "name": "US dollar note"
+    },
+    {
+     "name": "banknote"
+    }
+   ]
+  },
+  {
+   "category": "Currency",
+   "subcategory": "Coin",
+   "used_for": "a coin used to pay",
+   "items": [
+    {
+     "name": "coin"
+    },
+    {
+     "name": "1 rupee coin"
+    },
+    {
+     "name": "2 rupee coin"
+    },
+    {
+     "name": "5 rupee coin"
+    },
+    {
+     "name": "10 rupee coin"
+    }
+   ]
+  },
+  {
+   "category": "Currency",
+   "subcategory": "Payment Card",
+   "used_for": "a card used to pay",
+   "items": [
+    {
+     "name": "credit card"
+    },
+    {
+     "name": "debit card"
+    }
+   ]
+  },
+  {
+   "category": "Household Item",
+   "subcategory": "Kitchenware",
+   "used_for": "used to cook, serve or eat",
+   "items": [
+    {
+     "name": "plate"
+    },
+    {
+     "name": "bowl"
+    },
+    {
+     "name": "cup"
+    },
+    {
+     "name": "mug"
+    },
+    {
+     "name": "drinking glass",
+     "aliases": [
+      "glass"
+     ]
+    },
+    {
+     "name": "spoon"
+    },
+    {
+     "name": "fork"
+    },
+    {
+     "name": "knife"
+    },
+    {
+     "name": "tiffin box",
+     "aliases": [
+      "lunch box"
+     ]
+    },
+    {
+     "name": "cooking pot"
+    },
+    {
+     "name": "frying pan",
+     "aliases": [
+      "pan"
+     ]
+    },
+    {
+     "name": "kadhai"
+    },
+    {
+     "name": "ladle"
+    },
+    {
+     "name": "rolling pin",
+     "aliases": [
+      "belan"
+     ]
+    },
+    {
+     "name": "chopping board"
+    },
+    {
+     "name": "thermos flask",
+     "aliases": [
+      "flask"
+     ]
+    },
+    {
+     "name": "reusable water bottle",
+     "aliases": [
+      "steel water bottle"
+     ]
+    },
+    {
+     "name": "jug"
+    },
+    {
+     "name": "tea kettle"
+    },
+    {
+     "name": "cutlery set"
+    },
+    {
+     "name": "bottle opener"
+    }
+   ]
+  },
+  {
+   "category": "Household Item",
+   "subcategory": "Lighting and Fixtures",
+   "used_for": "lighting, security and fittings around the home",
+   "items": [
+    {
+     "name": "light bulb",
+     "aliases": [
+      "bulb"
+     ]
+    },
+    {
+     "name": "tube light"
+    },
+    {
+     "name": "table lamp",
+     "aliases": [
+      "lamp"
+     ]
+    },
+    {
+     "name": "candle"
+    },
+    {
+     "name": "flashlight",
+     "aliases": [
+      "torch"
+     ]
+    },
+    {
+     "name": "lantern"
+    },
+    {
+     "name": "wall clock",
+     "aliases": [
+      "clock"
+     ]
+    },
+    {
+     "name": "alarm clock"
+    },
+    {
+     "name": "mirror"
+    },
+    {
+     "name": "curtain"
+    },
+    {
+     "name": "door"
+    },
+    {
+     "name": "window"
+    },
+    {
+     "name": "key",
+     "aliases": [
+      "keys"
+     ]
+    },
+    {
+     "name": "padlock",
+     "aliases": [
+      "lock"
+     ]
+    },
+    {
+     "name": "door handle"
+    },
+    {
+     "name": "switch board"
+    },
+    {
+     "name": "plug socket"
+    },
+    {
+     "name": "gas cylinder"
+    },
+    {
+     "name": "toilet"
+    },
+    {
+     "name": "sink",
+     "aliases": [
+      "wash basin"
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Household Item",
+   "subcategory": "Cleaning Tool",
+   "used_for": "used for cleaning the home",
+   "items": [
+    {
+     "name": "broom"
+    },
+    {
+     "name": "mop"
+    },
+    {
+     "name": "bucket"
+    },
+    {
+     "name": "dustbin",
+     "aliases": [
+      "trash can"
+     ]
+    },
+    {
+     "name": "duster"
+    },
+    {
+     "name": "bathroom scale"
+    },
+    {
+     "name": "laundry basket"
+    },
+    {
+     "name": "clothes hanger"
+    },
+    {
+     "name": "towel"
+    },
+    {
+     "name": "toilet paper roll"
+    },
+    {
+     "name": "tissue box"
+    },
+    {
+     "name": "soap dispenser"
+    }
+   ]
+  },
+  {
+   "category": "Household Item",
+   "subcategory": "Decor and Miscellaneous",
+   "used_for": "household items and everyday objects",
+   "items": [
+    {
+     "name": "vase"
+    },
+    {
+     "name": "photo frame"
+    },
+    {
+     "name": "toy"
+    },
+    {
+     "name": "teddy bear"
+    },
+    {
+     "name": "doll"
+    },
+    {
+     "name": "balloon"
+    },
+    {
+     "name": "gift box"
+    },
+    {
+     "name": "matchbox"
+    },
+    {
+     "name": "lighter"
+    },
+    {
+     "name": "incense sticks"
+    },
+    {
+     "name": "cardboard box"
+    },
+    {
+     "name": "plastic bag"
+    },
+    {
+     "name": "paper bag"
+    },
+    {
+     "name": "rope"
+    },
+    {
+     "name": "board game"
+    },
+    {
+     "name": "playing cards"
+    },
+    {
+     "name": "guitar"
+    },
+    {
+     "name": "football",
+     "aliases": [
+      "soccer ball"
+     ]
+    },
+    {
+     "name": "cricket bat"
+    },
+    {
+     "name": "badminton racket"
+    },
+    {
+     "name": "frisbee"
+    }
+   ]
+  },
+  {
+   "category": "Stationery",
+   "subcategory": "Writing",
+   "used_for": "used for writing and drawing",
+   "items": [
+    {
+     "name": "pen"
+    },
+    {
+     "name": "pencil"
+    },
+    {
+     "name": "marker pen"
+    },
+    {
+     "name": "highlighter"
+    },
+    {
+     "name": "eraser"
+    },
+    {
+     "name": "pencil sharpener"
+    },
+    {
+     "name": "ruler"
+    },
+    {
+     "name": "crayons"
+    },
+    {
+     "name": "fountain pen"
+    },
+    {
+     "name": "chalk"
+    }
+   ]
+  },
+  {
+   "category": "Stationery",
+   "subcategory": "Office Supplies",
+   "used_for": "used in the office or at a desk",
+   "items": [
+    {
+     "name": "stapler"
+    },
+    {
+     "name": "paper clips"
+    },
+    {
+     "name": "scissors"
+    },
+    {
+     "name": "glue stick"
+    },
+    {
+     "name": "sticky tape"
+    },
+    {
+     "name": "calculator"
+    },
+    {
+     "name": "folder"
+    },
+    {
+     "name": "file folder"
+    },
+    {
+     "name": "clipboard"
+    },
+    {
+     "name": "rubber band"
+    },
+    {
+     "name": "whiteboard"
+    }
+   ]
+  },
+  {
+   "category": "Other",
+   "subcategory": "Other",
+   "used_for": "an object that does not fit a known category",
+   "items": [
+    {
+     "name": "unknown object"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+models/*.pt
+models/*.onnx
+data/settings.json
+data/products.json
+data/cache/
+logs/
+*.log
+captures/
+data/user_config.yaml

@@ -1,0 +1,69 @@
+# SmartSight AI configuration (defaults). Do not edit your personal changes here: the app saves them to
+# data/user_config.yaml, and any value can also be overridden with an environment variable SMARTSIGHT_<NAME>.
+
+# ---- camera & speed -------------------------------------------------------------------------
+camera_index: 0
+detection_fps: 8.0            # max detections per second (adaptive: slower hardware simply runs slower)
+infer_max_side: 640           # frames are downscaled to this size for inference only
+detect_imgsz: 416             # YOLO input size (smaller = faster)
+gpu: false                    # true uses CUDA if PyTorch can see a GPU (then half precision)
+detector_half: true           # half precision when on GPU
+preview_width: 640
+display_target_fps: 30
+
+# ---- Tier 1: detector + tracker ---------------------------------------------------------------
+model_path: yolo11n.pt        # .pt, or an exported .onnx (see scripts/export_onnx.py)
+confidence_threshold: 0.45
+stable_frames: 4              # an object must stay this many frames before Tier 2/3 or announcements
+tracker_iou: 0.3
+tracker_max_misses: 6
+vote_window: 8                # majority vote over this many recent labels per object
+ignore_classes: []            # e.g. [person] to never mention people
+
+# ---- Tier 2: open-vocabulary recognition ------------------------------------------------------
+zero_shot_enabled: true       # needs requirements-recognition.txt; falls back to Tier 1 with a spoken notice
+zero_shot_model: ViT-B-32
+zero_shot_pretrained: laion2b_s34b_b79k
+zero_shot_threshold: 0.30
+vocabulary_path: data/vocabulary.json
+taxonomy_path: data/taxonomy.json
+knowledge_path: data/knowledge.json
+
+# ---- Tier 3: descriptive AI (cloud) -----------------------------------------------------------
+cloud_ai: true                # configured on, but NOTHING is sent until cloud_consent is true
+cloud_consent: false          # set true by the one-time "I agree" prompt
+cloud_auto: true              # allow automatic look-up when Tier 1+2 confidence is low
+cloud_low_confidence: 0.5
+cloud_web_search: true
+cloud_model: claude-sonnet-5-5
+cloud_min_interval: 10.0
+cloud_max_per_minute: 5
+
+# ---- speech & announcements -------------------------------------------------------------------
+verbosity: standard           # concise | standard | detailed
+detail_level: 1               # 1 auto, 2 full card after "more"
+speech_rate: 170
+speech_volume: 1.0
+speak_percent: true           # say "80 percent sure" (an uncalibrated model score) instead of words only
+confidence_speak_threshold: 0.60   # below this, speech is hedged ("I think...", "I'm not sure...")
+announce_cooldown: 6.0
+auto_announce: true
+earcons: true
+position_cues: true
+repeat_suppression_seconds: 30.0
+object_absence_seconds: 3.0
+
+# ---- text reading -----------------------------------------------------------------------------
+ocr_engine: auto              # auto = PaddleOCR -> EasyOCR -> Tesseract
+ocr_min_confidence: 0.6
+price_min_confidence: 0.7
+min_sharpness: 60.0
+min_brightness: 50.0
+capture_samples: 3
+
+# ---- optional integrations (off by default) ---------------------------------------------------
+online_lookup: false          # barcode number only is sent to Open Food Facts
+voice_input: false            # offline Vosk
+vosk_model_path: models/vosk-model-small-en-us-0.15
+show_preview: true
+high_contrast: true

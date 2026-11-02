@@ -1,0 +1,606 @@
+{
+ "version": 1,
+ "note": "Extend freely. 'categories' give defaults; 'items' (keyed by vocabulary name) override. Never write 'safe to eat/drink/use', 'allergen-free' or doses here.",
+ "categories": {
+  "Food and Drink": {
+   "summary": "food or drink",
+   "description": "Something to eat or drink.",
+   "safety": [
+    "Check the label for allergens and the expiry date. I cannot tell whether food is fresh or suitable for you."
+   ]
+  },
+  "Packaged Goods": {
+   "summary": "a packaged product",
+   "description": "A product sold in a pack, bottle, tube or jar.",
+   "safety": [
+    "Check the printed label for ingredients, allergens, handling cautions and the expiry date."
+   ]
+  },
+  "Medicine and Health": {
+   "summary": "a medicine or health item",
+   "description": "An item used for health care.",
+   "safety": [
+    "Confirm the name, purpose, dose and expiry date with the label or a pharmacist before using any medicine."
+   ]
+  },
+  "Machine and Appliance": {
+   "summary": "a machine or appliance",
+   "description": "A machine or appliance, usually powered by electricity or gas.",
+   "safety": [
+    "Appliances use electricity or heat. Keep hands dry and clear of moving or hot parts, and switch off before cleaning."
+   ]
+  },
+  "Electronics": {
+   "summary": "an electronic device",
+   "description": "An electronic device or accessory.",
+   "safety": [
+    "Do not use damaged cables, chargers or batteries."
+   ]
+  },
+  "Tool": {
+   "summary": "a tool",
+   "description": "A tool for making or fixing things.",
+   "safety": [
+    "Tools can injure. Handle edges, points and moving parts carefully."
+   ]
+  },
+  "Vehicle": {
+   "summary": "a vehicle",
+   "description": "A vehicle for moving people or goods.",
+   "safety": [
+    "I cannot judge traffic or distance. Do not rely on SmartSight near roads."
+   ]
+  },
+  "Furniture": {
+   "summary": "a piece of furniture",
+   "description": "Furniture found in a home or office.",
+   "safety": []
+  },
+  "Clothing and Accessories": {
+   "summary": "something worn or carried",
+   "description": "Clothing or an accessory.",
+   "safety": []
+  },
+  "Plant": {
+   "summary": "a plant",
+   "description": "A plant or flower.",
+   "safety": [
+    "Some plants can irritate the skin or be harmful if eaten. Do not eat or handle unknown plants."
+   ]
+  },
+  "Animal": {
+   "summary": "an animal",
+   "description": "An animal.",
+   "safety": [
+    "Keep a safe distance from unfamiliar animals."
+   ]
+  },
+  "Person": {
+   "summary": "a person",
+   "description": "A person is in view. SmartSight only says that someone is present and roughly where. It never identifies people.",
+   "safety": []
+  },
+  "Document and Text": {
+   "summary": "a document or text",
+   "description": "Printed or written material.",
+   "safety": [
+    "I can misread text. Check important details such as amounts and dates."
+   ]
+  },
+  "Currency": {
+   "summary": "money",
+   "description": "Money used for payment.",
+   "safety": [
+    "I cannot tell whether money is genuine. Ask someone you trust to check important notes."
+   ]
+  },
+  "Household Item": {
+   "summary": "a household item",
+   "description": "An everyday item found around the home.",
+   "safety": []
+  },
+  "Stationery": {
+   "summary": "a stationery item",
+   "description": "An item used for writing, drawing or office work.",
+   "safety": []
+  },
+  "Other": {
+   "summary": "an object I could not place in a category",
+   "description": "I could not place this object in a known category.",
+   "safety": []
+  }
+ },
+ "items": {
+  "microwave oven": {
+   "summary": "An electric oven that heats food with microwaves.",
+   "used_for": "heating and cooking food quickly",
+   "operation": "Put food in a microwave-safe container, close the door, set the time and power, then press start.",
+   "parts": [
+    "door",
+    "control panel or dial",
+    "turntable"
+   ],
+   "safety": "Never put metal inside. Hot food and steam can burn.",
+   "hazard": true
+  },
+  "refrigerator": {
+   "summary": "An electric cabinet that keeps food cold.",
+   "used_for": "keeping food and drinks cool",
+   "operation": "Open the door to reach shelves; the temperature is set with a dial or panel inside.",
+   "parts": [
+    "door",
+    "shelves",
+    "freezer compartment"
+   ],
+   "safety": "Check food dates yourself; I cannot tell if food has spoiled."
+  },
+  "mixer grinder": {
+   "summary": "An electric appliance with jars and rotating blades.",
+   "used_for": "grinding, blending and mixing food",
+   "operation": "Put food in the jar, lock the lid firmly, then turn the speed knob.",
+   "parts": [
+    "motor base",
+    "jars",
+    "lids",
+    "speed knob"
+   ],
+   "safety": "Sharp spinning blades. Never put fingers in the jar, and switch off before opening.",
+   "hazard": true
+  },
+  "pressure cooker": {
+   "summary": "A sealed pot that cooks food quickly under steam pressure.",
+   "used_for": "cooking food quickly",
+   "operation": "Add food and water, lock the lid, heat until it whistles, then let the pressure drop before opening.",
+   "parts": [
+    "lid",
+    "whistle or weight",
+    "gasket",
+    "handles"
+   ],
+   "safety": "Steam and pressure can scald. Never force the lid open.",
+   "hazard": true
+  },
+  "gas stove": {
+   "summary": "A cooking stove that burns gas.",
+   "used_for": "cooking food on a flame",
+   "operation": "Turn the knob to light the burner, and turn it fully off after use.",
+   "parts": [
+    "burners",
+    "knobs",
+    "gas pipe"
+   ],
+   "safety": "Open flame. If you smell gas, switch everything off and get fresh air.",
+   "hazard": true
+  },
+  "gas cylinder": {
+   "summary": "A metal cylinder holding cooking gas.",
+   "used_for": "supplying gas to a stove",
+   "operation": "Connect the regulator to the valve and switch the regulator on to start the gas.",
+   "parts": [
+    "valve",
+    "regulator",
+    "hose"
+   ],
+   "safety": "Flammable. Keep away from flames and switch off the regulator when not in use.",
+   "hazard": true
+  },
+  "washing machine": {
+   "summary": "A machine that washes clothes.",
+   "used_for": "washing clothes",
+   "operation": "Load clothes, add detergent, choose a programme and start.",
+   "parts": [
+    "door",
+    "detergent drawer",
+    "control panel"
+   ],
+   "safety": "Switch off power and water before cleaning or if it leaks."
+  },
+  "clothes iron": {
+   "summary": "An electric appliance with a hot flat plate.",
+   "used_for": "pressing creases out of clothes",
+   "operation": "Plug in, set the temperature dial for the fabric, wait for it to heat, then press.",
+   "parts": [
+    "soleplate",
+    "temperature dial",
+    "handle",
+    "cord"
+   ],
+   "safety": "The plate gets very hot. Unplug when finished.",
+   "hazard": true
+  },
+  "electric kettle": {
+   "summary": "A jug that boils water with electricity.",
+   "used_for": "boiling water",
+   "operation": "Fill with water, put it on its base and switch on; it usually switches itself off.",
+   "parts": [
+    "lid",
+    "handle",
+    "base",
+    "switch"
+   ],
+   "safety": "Boiling water and steam can scald.",
+   "hazard": true
+  },
+  "ceiling fan": {
+   "summary": "A fan fixed to the ceiling.",
+   "used_for": "moving air to cool a room",
+   "operation": "Switch on at the wall and set the speed with the regulator.",
+   "parts": [
+    "blades",
+    "regulator",
+    "switch"
+   ],
+   "safety": "Do not touch the blades while they spin."
+  },
+  "air conditioner": {
+   "summary": "An appliance that cools room air.",
+   "used_for": "cooling a room",
+   "operation": "Use the remote control to switch on, set temperature and fan speed.",
+   "parts": [
+    "remote control",
+    "vents",
+    "filter"
+   ]
+  },
+  "electric drill": {
+   "summary": "A powered drill that spins bits.",
+   "used_for": "making holes and driving screws",
+   "operation": "Fit the right bit, hold firmly with both hands, then press the trigger.",
+   "parts": [
+    "chuck",
+    "trigger",
+    "handle",
+    "bit"
+   ],
+   "safety": "Wear eye protection and keep fingers away from the bit.",
+   "hazard": true
+  },
+  "angle grinder": {
+   "summary": "A powered tool with a fast spinning disc.",
+   "used_for": "cutting and grinding metal or stone",
+   "operation": "Fit a suitable disc, keep the guard on, hold with both hands and press the switch.",
+   "parts": [
+    "disc",
+    "guard",
+    "handle",
+    "switch"
+   ],
+   "safety": "Very dangerous: sparks and a fast spinning disc. Use eye protection and unplug before changing discs.",
+   "hazard": true
+  },
+  "lawn mower": {
+   "summary": "A machine that cuts grass.",
+   "used_for": "cutting grass",
+   "operation": "Start the motor, then walk behind the handle to push it.",
+   "parts": [
+    "blade deck",
+    "handle",
+    "motor"
+   ],
+   "safety": "Spinning blades. Keep hands and feet away and switch off before clearing blockages.",
+   "hazard": true
+  },
+  "laptop": {
+   "summary": "A portable computer.",
+   "used_for": "working, browsing and communicating",
+   "operation": "Open the lid and press the power button; use the keyboard and touchpad.",
+   "parts": [
+    "screen",
+    "keyboard",
+    "touchpad",
+    "charging port"
+   ]
+  },
+  "mobile phone": {
+   "summary": "A handheld phone with a touch screen.",
+   "used_for": "calling, messaging and using apps",
+   "operation": "Press the side button to wake it, then use the touch screen.",
+   "parts": [
+    "screen",
+    "side buttons",
+    "charging port"
+   ]
+  },
+  "television": {
+   "summary": "A screen for watching programmes.",
+   "used_for": "watching video and programmes",
+   "operation": "Use the remote control to switch on and change channel or volume.",
+   "parts": [
+    "screen",
+    "power button",
+    "remote control"
+   ]
+  },
+  "remote control": {
+   "summary": "A handheld controller.",
+   "used_for": "controlling a television or other appliance from a distance",
+   "operation": "Point it at the device and press the buttons.",
+   "parts": [
+    "buttons",
+    "battery cover"
+   ]
+  },
+  "power bank": {
+   "summary": "A portable battery.",
+   "used_for": "charging phones and small devices",
+   "operation": "Connect a cable from its port to your device; a button usually shows charge.",
+   "parts": [
+    "USB ports",
+    "button",
+    "indicator lights"
+   ],
+   "safety": "Do not use if it is swollen, hot or damaged."
+  },
+  "scissors": {
+   "summary": "A cutting tool with two blades.",
+   "used_for": "cutting paper, cloth and thread",
+   "operation": "Put fingers through the handles and open and close the blades.",
+   "parts": [
+    "blades",
+    "handles"
+   ],
+   "safety": "Sharp blades."
+  },
+  "knife": {
+   "summary": "A cutting tool with a blade.",
+   "used_for": "cutting food",
+   "operation": "Hold the handle firmly and cut away from your body.",
+   "parts": [
+    "blade",
+    "handle"
+   ],
+   "safety": "Sharp blade. Find the handle before touching the blade.",
+   "hazard": true
+  },
+  "hammer": {
+   "summary": "A hand tool with a heavy head.",
+   "used_for": "driving nails and breaking things",
+   "operation": "Hold the handle near the end and swing from the wrist and elbow.",
+   "parts": [
+    "head",
+    "handle"
+   ],
+   "safety": "Keep fingers clear of the striking area."
+  },
+  "screwdriver": {
+   "summary": "A hand tool with a tip that fits screws.",
+   "used_for": "turning screws",
+   "operation": "Fit the tip into the screw head and turn the handle.",
+   "parts": [
+    "handle",
+    "shaft",
+    "tip"
+   ]
+  },
+  "stapler": {
+   "summary": "A desk tool that joins sheets of paper with staples.",
+   "used_for": "fastening papers together",
+   "operation": "Place the pages under the head and press down firmly.",
+   "parts": [
+    "top arm",
+    "base",
+    "staple magazine"
+   ]
+  },
+  "pen": {
+   "summary": "A writing instrument with ink.",
+   "used_for": "writing",
+   "operation": "Remove the cap or click it, then write.",
+   "parts": [
+    "cap or button",
+    "barrel",
+    "tip"
+   ]
+  },
+  "calculator": {
+   "summary": "A small electronic device for arithmetic.",
+   "used_for": "adding, subtracting, multiplying and dividing",
+   "operation": "Press the on button, type numbers and operations, then press equals.",
+   "parts": [
+    "display",
+    "number keys",
+    "operation keys"
+   ]
+  },
+  "shampoo bottle": {
+   "summary": "A bottle of liquid soap for hair.",
+   "used_for": "washing hair and the scalp",
+   "operation": "Wet hair, put a small amount on the hair, rub in, then rinse.",
+   "safety": "Avoid contact with eyes; rinse well if it gets in."
+  },
+  "toothpaste tube": {
+   "summary": "A tube of paste for cleaning teeth.",
+   "used_for": "cleaning teeth with a toothbrush",
+   "operation": "Squeeze a small amount on a brush and brush, then rinse your mouth.",
+   "safety": "Not for swallowing."
+  },
+  "hand sanitiser bottle": {
+   "summary": "A bottle of alcohol-based gel or liquid.",
+   "used_for": "cleaning hands without water",
+   "operation": "Rub a small amount over the hands until dry.",
+   "safety": "Flammable and not for drinking. Keep away from children and flames."
+  },
+  "detergent packet": {
+   "summary": "A pack of washing powder.",
+   "used_for": "washing clothes",
+   "operation": "Follow the amount printed on the pack.",
+   "safety": "Not for eating or drinking. Keep away from children, and check the label for handling cautions."
+  },
+  "medicine strip": {
+   "summary": "A foil strip of tablets or capsules.",
+   "used_for": "a medicine; the purpose is printed on the pack",
+   "operation": "Use only as written on the label or as directed by a doctor.",
+   "safety": "I cannot tell what the medicine is for or the right dose. Read the label or ask a pharmacist."
+  },
+  "cough syrup bottle": {
+   "summary": "A bottle of liquid medicine.",
+   "used_for": "a medicine; the purpose is printed on the label",
+   "operation": "Use only as written on the label or as directed by a doctor.",
+   "safety": "I cannot give doses. Read the label or ask a pharmacist."
+  },
+  "thermometer": {
+   "summary": "A device that measures body temperature.",
+   "used_for": "checking for fever",
+   "operation": "Place it as instructed for its type and wait for the reading or beep.",
+   "parts": [
+    "sensor tip",
+    "display",
+    "button"
+   ]
+  },
+  "glucometer": {
+   "summary": "A device that measures blood sugar.",
+   "used_for": "checking blood sugar levels",
+   "operation": "Insert a test strip, apply a drop of blood and read the result.",
+   "parts": [
+    "test strip slot",
+    "display"
+   ],
+   "safety": "Results should be discussed with a doctor."
+  },
+  "syringe": {
+   "summary": "A plastic tube with a plunger and needle.",
+   "used_for": "giving injections or measuring liquid medicine",
+   "operation": "Used by or under the guidance of a health professional.",
+   "parts": [
+    "barrel",
+    "plunger",
+    "needle"
+   ],
+   "safety": "The needle is sharp. Do not touch it, and ask a health professional about use.",
+   "hazard": true
+  },
+  "500 rupee note": {
+   "summary": "An Indian banknote.",
+   "used_for": "payment; the value printed on it is five hundred rupees",
+   "safety": "I cannot confirm whether a note is genuine."
+  },
+  "100 rupee note": {
+   "summary": "An Indian banknote.",
+   "used_for": "payment; the value printed on it is one hundred rupees",
+   "safety": "I cannot confirm whether a note is genuine."
+  },
+  "bicycle": {
+   "summary": "A two-wheeled vehicle moved by pedalling.",
+   "used_for": "travelling short distances",
+   "operation": "Sit on the saddle, hold the handlebars and pedal; brakes are levers on the handlebars.",
+   "parts": [
+    "handlebars",
+    "saddle",
+    "pedals",
+    "wheels",
+    "brakes"
+   ]
+  },
+  "helmet": {
+   "summary": "A hard hat for the head.",
+   "used_for": "protecting the head when riding or working",
+   "operation": "Put it on and fasten the strap under the chin."
+  },
+  "umbrella": {
+   "summary": "A folding canopy on a stick.",
+   "used_for": "keeping off rain or sun",
+   "operation": "Press the button or slide the runner to open.",
+   "parts": [
+    "canopy",
+    "handle",
+    "ribs"
+   ],
+   "safety": "Ribs have pointed tips."
+  },
+  "wristwatch": {
+   "summary": "A watch worn on the wrist.",
+   "used_for": "telling the time",
+   "parts": [
+    "dial or screen",
+    "strap",
+    "buttons"
+   ]
+  },
+  "spectacles": {
+   "summary": "Glasses with lenses held on a frame.",
+   "used_for": "helping vision or protecting the eyes",
+   "parts": [
+    "lenses",
+    "frame",
+    "arms"
+   ]
+  },
+  "backpack": {
+   "summary": "A bag carried on the back.",
+   "used_for": "carrying books and belongings",
+   "parts": [
+    "straps",
+    "zips",
+    "pockets"
+   ]
+  },
+  "cup": {
+   "summary": "A small open container with a handle.",
+   "used_for": "drinking hot or cold drinks",
+   "parts": [
+    "rim",
+    "handle"
+   ],
+   "safety": "Hot drinks can burn."
+  },
+  "reusable water bottle": {
+   "summary": "A refillable bottle.",
+   "used_for": "carrying drinking water",
+   "operation": "Unscrew the cap to drink or fill.",
+   "parts": [
+    "cap",
+    "body"
+   ]
+  },
+  "lighter": {
+   "summary": "A small device that makes a flame.",
+   "used_for": "lighting stoves, candles and incense",
+   "operation": "Press or roll the wheel or button to make a flame.",
+   "safety": "Open flame and flammable fuel. Keep away from children.",
+   "hazard": true
+  },
+  "matchbox": {
+   "summary": "A small box of matches.",
+   "used_for": "lighting a flame",
+   "operation": "Strike a match against the side of the box.",
+   "safety": "Open flame. Keep away from children.",
+   "hazard": true
+  },
+  "padlock": {
+   "summary": "A removable lock.",
+   "used_for": "securing doors, bags and boxes",
+   "operation": "Open with its key or code.",
+   "parts": [
+    "body",
+    "shackle",
+    "keyhole or dial"
+   ]
+  },
+  "candle": {
+   "summary": "A wax stick with a wick.",
+   "used_for": "giving light or scent",
+   "parts": [
+    "wick",
+    "wax"
+   ],
+   "safety": "Open flame. Never leave it burning unattended.",
+   "hazard": true
+  },
+  "extension board": {
+   "summary": "A multi-socket power strip with a cable.",
+   "used_for": "powering several devices from one wall socket",
+   "parts": [
+    "sockets",
+    "switch",
+    "cable"
+   ],
+   "safety": "Do not overload it or use it if the cable is damaged."
+  },
+  "snake": {
+   "summary": "A reptile with no legs.",
+   "safety": "Some snakes are dangerous. Keep away and do not touch.",
+   "hazard": true
+  }
+ }
+}

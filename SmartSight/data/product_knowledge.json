@@ -1,0 +1,23 @@
+[
+ {"category": "shampoo", "keywords": ["shampoo"], "purpose": "Shampoo is used to wash hair and the scalp."},
+ {"category": "conditioner", "keywords": ["conditioner"], "purpose": "Conditioner is used after shampoo to soften hair."},
+ {"category": "soap", "keywords": ["soap", "body wash", "handwash", "hand wash"], "purpose": "Soap and body wash are used for cleaning skin."},
+ {"category": "toothpaste", "keywords": ["toothpaste", "tooth paste"], "purpose": "Toothpaste is used to clean teeth."},
+ {"category": "detergent", "keywords": ["detergent", "washing powder", "dishwash", "dish wash"], "purpose": "Detergent is used for cleaning clothes or dishes.", "caution": "Cleaning products are not for eating or drinking. Check the label for handling cautions."},
+ {"category": "skin lotion or cream", "keywords": ["lotion", "moisturiser", "moisturizer", "face cream", "body cream"], "purpose": "Lotions and creams are used to moisturise skin."},
+ {"category": "hand sanitiser", "keywords": ["sanitiser", "sanitizer"], "purpose": "Hand sanitiser is used to clean hands without water."},
+ {"category": "biscuits", "keywords": ["biscuit", "biscuits", "cookies", "cookie"], "purpose": "Biscuits are a packaged baked snack."},
+ {"category": "noodles", "keywords": ["noodles", "instant noodles"], "purpose": "Noodles are a packaged food that is usually cooked in hot water."},
+ {"category": "chips or crisps", "keywords": ["chips", "crisps", "namkeen", "wafers"], "purpose": "This is a packaged savoury snack."},
+ {"category": "chocolate", "keywords": ["chocolate", "choco"], "purpose": "Chocolate is a packaged sweet snack."},
+ {"category": "tea", "keywords": ["tea", "chai"], "purpose": "Tea is used to make a hot drink."},
+ {"category": "coffee", "keywords": ["coffee"], "purpose": "Coffee is used to make a hot drink."},
+ {"category": "juice or soft drink", "keywords": ["juice", "soft drink", "cola"], "purpose": "This is a packaged drink."},
+ {"category": "packaged drinking water", "keywords": ["mineral water", "drinking water", "packaged water"], "purpose": "This is bottled drinking water."},
+ {"category": "cooking oil", "keywords": ["cooking oil", "sunflower oil", "mustard oil", "refined oil", "groundnut oil", "coconut oil"], "purpose": "Cooking oil is used for cooking."},
+ {"category": "ghee", "keywords": ["ghee"], "purpose": "Ghee is clarified butter used in cooking."},
+ {"category": "rice", "keywords": ["basmati", "rice"], "purpose": "Rice is a staple grain that is cooked before eating."},
+ {"category": "flour", "keywords": ["atta", "flour", "maida", "besan"], "purpose": "Flour is used for making bread, rotis and baked foods."},
+ {"category": "spice mix", "keywords": ["masala", "turmeric", "chilli powder", "coriander powder"], "purpose": "Spices are used to flavour food."},
+ {"category": "medicine", "keywords": ["tablet", "tablets", "capsule", "capsules", "syrup", "ointment"], "purpose": "This looks like a medicine product. I can read its label, but please ask a pharmacist or doctor about how to use it."}
+]

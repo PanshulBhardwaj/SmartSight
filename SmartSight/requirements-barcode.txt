@@ -1,0 +1,2 @@
+# OPTIONAL barcode decoding (Windows wheels bundle the zbar DLL; needs the VC++ 2013 redistributable).
+pyzbar>=0.1.9

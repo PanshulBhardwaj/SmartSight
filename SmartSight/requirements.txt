@@ -1,0 +1,11 @@
+# SmartSight AI core. Python 3.12, Windows 10/11, inside a virtual environment:  pip install -r requirements.txt
+# Nothing here needs a C compiler. Ranges (not exact pins) because pins are unverified on your machine:
+# after a good install run  pip freeze > requirements.lock.txt  and use that file to reproduce it.
+numpy>=1.26,<3
+opencv-python>=4.8,<5
+Pillow>=10
+PyYAML>=6
+ultralytics>=8.3          # YOLO detector (installs PyTorch)
+easyocr>=1.7              # guaranteed OCR fallback
+pyttsx3>=2.90             # offline Windows speech (SAPI5)
+streamlit>=1.37           # secondary dashboard
